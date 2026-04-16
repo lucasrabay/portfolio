@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Lucas Rabay Butcher",
   initials: "LRB",
   role: "AI Engineer  \u00b7  Builder  \u00b7  Researcher",
-  bio: "I build AI that actually does something \u2014 for the people who usually get left out of the conversation. Python, LLMs, computer vision, and the occasional existential question about what any of this is for.",
+  bio: "trying to build AI that actually does something \u2014 for the people who usually get left out of the conversation. Python, LLMs, computer vision, and always doing my best.",
   email: "lucasrabaybutcher@gmail.com",
   url: "https://lucasrabay.dev",
   social: {
@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description:
       "Multimodal AI agent bridging the gap between the illiterate and the job market.",
     longDescription:
-      "Biu uses vision, speech, and language models to help functionally illiterate adults navigate job applications, interviews, and workplace documents \u2014 without needing to read.",
+      "Biu uses speech and language models to help functionally illiterate adults build resumes and navigate job applications \u2014 without needing to read.",
     tags: [
       { label: "LLMs", variant: "cyan" },
       { label: "Multimodal", variant: "cyan" },
@@ -28,7 +28,10 @@ export const projects: Project[] = [
       { label: "Python", variant: "amber" },
       { label: "Social Impact", variant: "amber" },
     ],
-    links: {},
+    links: {
+      github: "https://github.com/lucasrabay/VozPro",
+      demo: ""
+    },
     status: "live",
     featured: true,
   },
@@ -44,7 +47,10 @@ export const projects: Project[] = [
       { label: "React", variant: "amber" },
       { label: "Python", variant: "amber" },
     ],
-    links: {},
+    links: {
+      github: "https://github.com/Emysntts/warao",
+      demo: ""
+    },
     status: "live",
     featured: false,
   },
@@ -67,7 +73,7 @@ export const experience: Experience[] = [
     role: "Data Engineer Intern",
     company: "V360",
     period: "2024 \u2014 present",
-    description: "Building data pipelines and ML tooling.",
+    description: "Building data pipelines and visualization tooling.",
     active: true,
   },
   {
@@ -79,7 +85,7 @@ export const experience: Experience[] = [
     active: true,
   },
   {
-    role: "BSc Computer Science",
+    role: "BSc Data Science",
     company: "UFPB",
     period: "2022 \u2014 present",
     description: "Universidade Federal da Para\u00edba, Brazil.",

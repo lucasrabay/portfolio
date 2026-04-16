@@ -4,6 +4,7 @@ import { useState, type FormEvent } from "react";
 import AnimatedSection from "@/components/AnimatedSection";
 import SectionLabel from "@/components/ui/SectionLabel";
 import { siteConfig } from "@/lib/data";
+import Avatar from "@/components/ui/Avatar";
 
 export default function Contact() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -46,6 +47,12 @@ export default function Contact() {
       <div className="max-w-content mx-auto max-w-lg">
         <AnimatedSection>
           <SectionLabel number="05" label="contact" />
+          <div className="flex items-center gap-3 mb-6">
+            <Avatar size={56} />
+            <span className="font-mono text-sm text-text-dim">
+              Lucas Rabay Butcher
+            </span>
+          </div>
           <p className="font-display italic text-2xl text-text-muted mb-10">
             Open to interesting problems. If you&apos;re building something hard &mdash; or just want to talk &mdash; reach out.
           </p>

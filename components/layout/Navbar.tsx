@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/lib/data";
+import Avatar from "@/components/ui/Avatar";
 
 const navLinks = [
   { label: "work", href: "#work" },
@@ -22,7 +23,8 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-background/80 border-b border-border/50"
     >
       <div className="max-w-content mx-auto px-6 h-14 flex items-center justify-between">
-        <a href="#" className="font-mono text-accent text-sm tracking-wider">
+        <a href="#" className="flex items-center gap-2 font-mono text-accent text-sm tracking-wider">
+          <Avatar size={32} />
           {siteConfig.initials}_
         </a>
 
