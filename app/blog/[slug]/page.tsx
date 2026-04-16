@@ -18,7 +18,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   if (!post) return {};
 
   return {
-    title: `${post.title} — Your Name`,
+    title: `${post.title} — Lucas Rabay Butcher`,
     description: post.description,
   };
 }

@@ -47,7 +47,7 @@ export default function Contact() {
         <AnimatedSection>
           <SectionLabel number="05" label="contact" />
           <p className="font-display italic text-2xl text-text-muted mb-10">
-            Open to interesting problems.
+            Open to interesting problems. If you&apos;re building something hard &mdash; or just want to talk &mdash; reach out.
           </p>
         </AnimatedSection>
 

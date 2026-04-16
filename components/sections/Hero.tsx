@@ -30,7 +30,7 @@ export default function Hero() {
           variants={item}
           className="font-mono text-sm text-accent tracking-[0.2em] mb-6"
         >
-          // hello, world
+          // brazil &middot; uk &middot; building things that matter
         </motion.p>
 
         <motion.h1

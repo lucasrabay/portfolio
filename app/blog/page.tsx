@@ -3,8 +3,8 @@ import { getAllPosts } from "@/lib/posts";
 import BlogCard from "@/components/ui/BlogCard";
 
 export const metadata = {
-  title: "Blog — Your Name",
-  description: "Writing about AI engineering, machine learning, and building production systems.",
+  title: "Blog — Lucas Rabay Butcher",
+  description: "Writing about AI, language, and building things that matter.",
 };
 
 export default function BlogIndex() {

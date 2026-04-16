@@ -27,28 +27,29 @@ const monoFont = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — AI Engineer & Builder",
+  title: "Lucas Rabay Butcher — AI Engineer & Builder",
   description:
-    "I design and build intelligent systems that bridge research and production. Focused on large language models, retrieval-augmented generation, and developer tooling.",
-  metadataBase: new URL("https://yourdomain.com"),
+    "AI/ML engineer building at the intersection of language models and real-world impact. Based in Brazil & UK.",
+  metadataBase: new URL("https://lucasrabay.dev"),
   openGraph: {
-    title: "Your Name — AI Engineer & Builder",
+    title: "Lucas Rabay Butcher — AI Engineer & Builder",
     description:
-      "I design and build intelligent systems that bridge research and production.",
-    url: "https://yourdomain.com",
-    siteName: "Your Name",
+      "AI/ML engineer building at the intersection of language models and real-world impact. Based in Brazil & UK.",
+    url: "https://lucasrabay.dev",
+    siteName: "Lucas Rabay Butcher",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name — AI Engineer & Builder",
+    creator: "@lucasrabayb",
+    title: "Lucas Rabay Butcher — AI Engineer & Builder",
     description:
-      "I design and build intelligent systems that bridge research and production.",
+      "AI/ML engineer building at the intersection of language models and real-world impact. Based in Brazil & UK.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://yourdomain.com",
+    canonical: "https://lucasrabay.dev",
   },
   robots: {
     index: true,

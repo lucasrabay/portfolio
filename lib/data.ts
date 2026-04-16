@@ -1,84 +1,88 @@
 import type { Project, Experience } from "@/types";
 
 export const siteConfig = {
-  name: "Your Name",
-  initials: "YN",
-  role: "AI Engineer \u00b7 Builder",
-  bio: "I design and build intelligent systems that bridge research and production. Focused on large language models, retrieval-augmented generation, and developer tooling that makes AI accessible.",
-  email: "you@example.com",
-  url: "https://yourdomain.com",
+  name: "Lucas Rabay Butcher",
+  initials: "LRB",
+  role: "AI Engineer  \u00b7  Builder  \u00b7  Researcher",
+  bio: "I build AI that actually does something \u2014 for the people who usually get left out of the conversation. Python, LLMs, computer vision, and the occasional existential question about what any of this is for.",
+  email: "lucasrabaybutcher@gmail.com",
+  url: "https://lucasrabay.dev",
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
+    github: "https://github.com/lucasrabay",
+    linkedin: "https://linkedin.com/in/lucas-rabay-butcher",
+    "twitter/x": "https://x.com/lucasrabayb",
   },
 };
 
 export const projects: Project[] = [
   {
-    title: "Cortex \u2014 Retrieval-Augmented Research Assistant",
+    title: "Biu",
     description:
-      "A full-stack RAG pipeline that ingests academic papers, builds a vector index with sentence embeddings, and serves a conversational interface for literature review. Handles 50k+ documents with sub-second retrieval latency using HNSW indexing and streaming completions.",
+      "Multimodal AI agent bridging the gap between the illiterate and the job market.",
+    longDescription:
+      "Biu uses vision, speech, and language models to help functionally illiterate adults navigate job applications, interviews, and workplace documents \u2014 without needing to read.",
     tags: [
-      { label: "RAG", variant: "cyan" },
+      { label: "LLMs", variant: "cyan" },
+      { label: "Multimodal", variant: "cyan" },
       { label: "LangChain", variant: "cyan" },
-      { label: "FAISS", variant: "cyan" },
       { label: "Python", variant: "amber" },
-      { label: "Next.js", variant: "amber" },
-      { label: "PostgreSQL", variant: "amber" },
+      { label: "Social Impact", variant: "amber" },
     ],
-    links: {
-      demo: "https://cortex-demo.vercel.app",
-      github: "https://github.com/yourusername/cortex",
-    },
+    links: {},
+    status: "live",
     featured: true,
   },
   {
-    title: "Synthwave \u2014 AI Music Stem Separator",
+    title: "Warao",
     description:
-      "Real-time audio source separation using a fine-tuned Demucs model. Web UI lets users upload tracks and isolate vocals, drums, bass, and other instruments with drag-and-drop mixing.",
+      "Gamified web app that teaches Portuguese to migrants and refugees.",
+    longDescription:
+      "Named after the Warao people, one of Brazil\u2019s largest indigenous migrant groups. Warao uses game mechanics and adaptive exercises to make language acquisition accessible and engaging.",
     tags: [
-      { label: "PyTorch", variant: "cyan" },
-      { label: "Demucs", variant: "cyan" },
-      { label: "TypeScript", variant: "amber" },
-      { label: "WebAudio API", variant: "amber" },
+      { label: "EdTech", variant: "cyan" },
+      { label: "NLP", variant: "cyan" },
+      { label: "React", variant: "amber" },
+      { label: "Python", variant: "amber" },
     ],
-    links: {
-      github: "https://github.com/yourusername/synthwave",
-    },
+    links: {},
+    status: "live",
+    featured: false,
   },
   {
-    title: "Sentinel \u2014 LLM Output Guardrails",
-    description:
-      "A lightweight middleware layer that classifies and filters LLM outputs for toxicity, PII leakage, and prompt injection attempts. Pluggable into any OpenAI-compatible API with <5ms overhead per request.",
+    title: "More in the lab",
+    description: "A few projects currently cooking. Check back soon.",
     tags: [
-      { label: "Transformers", variant: "cyan" },
-      { label: "FastAPI", variant: "cyan" },
-      { label: "Go", variant: "amber" },
-      { label: "Docker", variant: "amber" },
+      { label: "LLMs", variant: "cyan" },
+      { label: "CV", variant: "cyan" },
+      { label: "Python", variant: "amber" },
     ],
-    links: {
-      demo: "https://sentinel-guardrails.dev",
-      github: "https://github.com/yourusername/sentinel",
-    },
+    links: {},
+    status: "in_progress",
+    featured: false,
   },
 ];
 
 export const experience: Experience[] = [
   {
-    role: "AI Engineer",
-    company: "Nexus AI",
-    period: "2024 \u2014 Present",
-    description:
-      "Building production LLM pipelines and retrieval systems. Leading the migration from monolithic prompt chains to modular agent architectures. Reduced inference costs by 40% through intelligent caching and model routing.",
+    role: "Data Engineer Intern",
+    company: "V360",
+    period: "2024 \u2014 present",
+    description: "Building data pipelines and ML tooling.",
     active: true,
   },
   {
-    role: "Machine Learning Intern",
-    company: "DataForge Labs",
-    period: "2023 \u2014 2024",
+    role: "Research Member",
+    company: "TAIL Lab, UFPB",
+    period: "2023 \u2014 present",
     description:
-      "Developed evaluation frameworks for generative models. Built internal tooling for dataset curation and annotation workflows using Python and React.",
-    active: false,
+      "Researching applied AI at the Tecnologia e Intelig\u00eancia Artificial Lab.",
+    active: true,
+  },
+  {
+    role: "BSc Computer Science",
+    company: "UFPB",
+    period: "2022 \u2014 present",
+    description: "Universidade Federal da Para\u00edba, Brazil.",
+    active: true,
   },
 ];

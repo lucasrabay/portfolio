@@ -1,11 +1,13 @@
 export interface Project {
   title: string;
   description: string;
+  longDescription?: string;
   tags: Tag[];
   links: {
     demo?: string;
     github?: string;
   };
+  status?: "live" | "in_progress";
   featured?: boolean;
 }
 
