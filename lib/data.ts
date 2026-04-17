@@ -72,14 +72,14 @@ export const experience: Experience[] = [
   {
     role: "Data Engineer Intern",
     company: "V360",
-    period: "2024 \u2014 present",
+    period: "2025 \u2014 present",
     description: "Building data pipelines and visualization tooling.",
     active: true,
   },
   {
     role: "Research Member",
     company: "TAIL Lab, UFPB",
-    period: "2023 \u2014 present",
+    period: "2024 \u2014 present",
     description:
       "Researching applied AI at the Tecnologia e Intelig\u00eancia Artificial Lab.",
     active: true,
